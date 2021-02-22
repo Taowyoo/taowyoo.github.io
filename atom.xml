@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taowyoo.github.io</id>
     <title>BitTwillight</title>
-    <updated>2021-02-22T17:32:34.260Z</updated>
+    <updated>2021-02-22T17:37:34.351Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taowyoo.github.io"/>
     <link rel="self" href="https://taowyoo.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://taowyoo.github.io/post/breakout-game/</id>
         <link href="https://taowyoo.github.io/post/breakout-game/">
         </link>
-        <updated>2021-02-18T16:41:11.000Z</updated>
+        <updated>2021-02-18T00:41:11.000Z</updated>
         <content type="html"><![CDATA[<p>This is my first Game project.<br>
 The game is fully developped with C++ and SDL2</p>
 <p><a href="https://github.com/Taowyoo/breakout-game">Project Github link</a></p>
@@ -25,7 +25,7 @@ The game is fully developped with C++ and SDL2</p>
 <img src="https://taowyoo.github.io/post-images/1614014365150.gif" alt="Demo2" loading="lazy"></p>
 <p>The game support two languages: English and Chinese<br>
 <img src="https://taowyoo.github.io/post-images/1614013813967.png" alt="English" loading="lazy">!<br>
-<a href="https://taowyoo.github.io/post-images/1614013816804.png">Chinese</a></p>
+<a href="https://taowyoo.github.io/post-images/1614014365150.png">Chinese</a></p>
 ]]></content>
     </entry>
 </feed>
