@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://taowyoo.github.io/favicon.ico?v=1614296505301">
+<link rel="shortcut icon" href="https://taowyoo.github.io/favicon.ico?v=1614369368640">
 <link rel="stylesheet" href="https://taowyoo.github.io/styles/main.css">
 
 
@@ -17,12 +17,23 @@
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-190651288-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-190651288-1');
+</script>
+
 
     <meta name="description" content="This is my first Game project.
-The game is fully developped with C++ and SDL2
-Project Github link
-There are also differe..." />
-    <meta name="keywords" content="" />
+The game is fully developped with C++ and SDL2.
+Source
+Github
+In class use:
+Github Classr..." />
+    <meta name="keywords" content="Game" />
   </head>
   <body>
     <div id="app" class="main">
@@ -31,7 +42,7 @@ There are also differe..." />
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://taowyoo.github.io">
-        <img src="https://taowyoo.github.io/images/avatar.png?v=1614296505301" class="site-logo">
+        <img src="https://taowyoo.github.io/images/avatar.png?v=1614369368640" class="site-logo">
         <h1 class="site-title">BitTwillight</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -59,14 +70,14 @@ There are also differe..." />
         
       
         
-          <a href="https://taowyoo.github.io/post/about" class="site-nav">
-            About
+          <a href="https://taowyoo.github.io/post/my-projects" class="site-nav">
+            Project
           </a>
         
       
         
-          <a href="https://taowyoo.github.io/post/breakout-game" class="site-nav">
-            Project
+          <a href="https://taowyoo.github.io/post/about" class="site-nav">
+            About
           </a>
         
       
@@ -76,7 +87,15 @@ There are also differe..." />
     <div class="social-container">
       
         
+          <a class="social-link" href="https://github.com/Taowyoo" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
       
+        
+          <a class="social-link" href="https://twitter.com/ao_nickel" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
         
       
         
@@ -104,16 +123,30 @@ There are also differe..." />
             
             <div class="post-content" v-pre>
               <p>This is my first Game project.<br>
-The game is fully developped with C++ and SDL2<br>
-<a href="https://github.com/Taowyoo/breakout-game">Project Github link</a><br>
-There are also different levels:<br>
-<img src="https://taowyoo.github.io/post-images/1614014365150.gif" alt="Demo2" loading="lazy"></p>
+The game is fully developped with C++ and SDL2.</p>
+<h2 id="source">Source</h2>
+<p><a href="https://github.com/Taowyoo/breakout-game/tree/main/Assignment1_Breakout/Game">Github</a></p>
+<p>In class use:<br>
+<a href="https://github.com/Spring21BuildingGameEngines/monorepo-Taowyoo/tree/main/Assignment1_Breakout/Game">Github Classroom</a></p>
+<h2 id="document">Document</h2>
+<p><a href="https://github.com/Taowyoo/breakout-game/blob/main/Assignment1_Breakout/Game/docs/refman.pdf">All in one pdf</a></p>
+<h2 id="demo">Demo</h2>
+<figure data-type="image" tabindex="1"><img src="https://taowyoo.github.io/post-images/1614014365150.gif" alt="Demo2" loading="lazy"></figure>
 <!-- more -->
+<h2 id="screenshots">Screenshots</h2>
 <p>The game support two languages: English and Chinese<br>
 <img src="https://taowyoo.github.io/post-images/1614013813967.png" alt="English" loading="lazy"><br>
 <img src="https://taowyoo.github.io/post-images/1614020390907.png" alt="" loading="lazy"></p>
 
             </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://taowyoo.github.io/tag/game/" class="tag">
+                    Game
+                  </a>
+                
+              </div>
             
             
 
@@ -139,6 +172,11 @@ var app = new Vue({
 
 </script>
 
+
+  <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>
+    hljs.initHighlightingOnLoad()
+  </script>
 
 
 

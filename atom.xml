@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://taowyoo.github.io</id>
     <title>BitTwillight</title>
-    <updated>2021-02-25T23:41:50.204Z</updated>
+    <updated>2021-02-26T19:56:15.767Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://taowyoo.github.io"/>
     <link rel="self" href="https://taowyoo.github.io/atom.xml"/>
@@ -11,32 +11,34 @@
     <icon>https://taowyoo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, BitTwillight</rights>
     <entry>
-        <title type="html"><![CDATA[Test home]]></title>
-        <id>https://taowyoo.github.io/post/test-home/</id>
-        <link href="https://taowyoo.github.io/post/test-home/">
-        </link>
-        <updated>2021-02-20T18:49:20.000Z</updated>
-        <content type="html"><![CDATA[<p>haha</p>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Breakout - Game]]></title>
         <id>https://taowyoo.github.io/post/breakout-game/</id>
         <link href="https://taowyoo.github.io/post/breakout-game/">
         </link>
-        <updated>2021-02-14T00:41:11.000Z</updated>
+        <updated>2021-02-13T08:41:11.000Z</updated>
         <summary type="html"><![CDATA[<p>This is my first Game project.<br>
-The game is fully developped with C++ and SDL2<br>
-<a href="https://github.com/Taowyoo/breakout-game">Project Github link</a><br>
-There are also different levels:<br>
-<img src="https://taowyoo.github.io/post-images/1614014365150.gif" alt="Demo2" loading="lazy"></p>
+The game is fully developped with C++ and SDL2.</p>
+<h2 id="source">Source</h2>
+<p><a href="https://github.com/Taowyoo/breakout-game/tree/main/Assignment1_Breakout/Game">Github</a></p>
+<p>In class use:<br>
+<a href="https://github.com/Spring21BuildingGameEngines/monorepo-Taowyoo/tree/main/Assignment1_Breakout/Game">Github Classroom</a></p>
+<h2 id="document">Document</h2>
+<p><a href="https://github.com/Taowyoo/breakout-game/blob/main/Assignment1_Breakout/Game/docs/refman.pdf">All in one pdf</a></p>
+<h2 id="demo">Demo</h2>
+<figure data-type="image" tabindex="1"><img src="https://taowyoo.github.io/post-images/1614014365150.gif" alt="Demo2" loading="lazy"></figure>
 ]]></summary>
         <content type="html"><![CDATA[<p>This is my first Game project.<br>
-The game is fully developped with C++ and SDL2<br>
-<a href="https://github.com/Taowyoo/breakout-game">Project Github link</a><br>
-There are also different levels:<br>
-<img src="https://taowyoo.github.io/post-images/1614014365150.gif" alt="Demo2" loading="lazy"></p>
+The game is fully developped with C++ and SDL2.</p>
+<h2 id="source">Source</h2>
+<p><a href="https://github.com/Taowyoo/breakout-game/tree/main/Assignment1_Breakout/Game">Github</a></p>
+<p>In class use:<br>
+<a href="https://github.com/Spring21BuildingGameEngines/monorepo-Taowyoo/tree/main/Assignment1_Breakout/Game">Github Classroom</a></p>
+<h2 id="document">Document</h2>
+<p><a href="https://github.com/Taowyoo/breakout-game/blob/main/Assignment1_Breakout/Game/docs/refman.pdf">All in one pdf</a></p>
+<h2 id="demo">Demo</h2>
+<figure data-type="image" tabindex="1"><img src="https://taowyoo.github.io/post-images/1614014365150.gif" alt="Demo2" loading="lazy"></figure>
 <!-- more -->
+<h2 id="screenshots">Screenshots</h2>
 <p>The game support two languages: English and Chinese<br>
 <img src="https://taowyoo.github.io/post-images/1614013813967.png" alt="English" loading="lazy"><br>
 <img src="https://taowyoo.github.io/post-images/1614020390907.png" alt="" loading="lazy"></p>
