@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://taowyoo.github.io</id>
+    <title>NickC&apos;s Blog</title>
+    <updated>2021-09-12T23:57:51.491Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://taowyoo.github.io"/>
+    <link rel="self" href="https://taowyoo.github.io/atom.xml"/>
+    <subtitle>After a night without stars, it is dawn</subtitle>
+    <logo>https://taowyoo.github.io/images/avatar.png</logo>
+    <icon>https://taowyoo.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2021, NickC&apos;s Blog</rights>
+</feed>
