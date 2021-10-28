@@ -1,21 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://taowyoo.github.io</id>
-    <title>Bit Twilight</title>
-    <updated>2021-10-28T15:19:36.314Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://taowyoo.github.io"/>
-    <link rel="self" href="https://taowyoo.github.io/atom.xml"/>
-    <logo>https://taowyoo.github.io/images/avatar.png</logo>
-    <icon>https://taowyoo.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Bit Twilight</rights>
-    <entry>
-        <title type="html"><![CDATA[How to slim a Docker Image]]></title>
-        <id>https://taowyoo.github.io/post/how-to-slim-a-docker-image/</id>
-        <link href="https://taowyoo.github.io/post/how-to-slim-a-docker-image/">
-        </link>
-        <updated>2021-10-26T14:53:49.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="how-to-slim-a-docker-image">How to slim a Docker Image</h1>
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>How to slim a Docker Image | Bit Twilight</title>
+<link rel="shortcut icon" href="https://taowyoo.github.io/favicon.ico?v=1635434332407">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://taowyoo.github.io/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="How to slim a Docker Image | Bit Twilight - Atom Feed" href="https://taowyoo.github.io/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+    <meta name="description" content="How to slim a Docker Image
+Take a glance to original Dockerfile
+Today I will use a dev image I am working on as example,..." />
+    <meta name="keywords" content="Docker" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://taowyoo.github.io">
+  <img class="avatar" src="https://taowyoo.github.io/images/avatar.png?v=1635434332407" alt="">
+  </a>
+  <h1 class="site-title">
+    Bit Twilight
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          Home
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          Archives
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          Tags
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          About
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              How to slim a Docker Image
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-10-26
+              </span>
+              <span>
+                20 min read
+              </span>
+              
+                <a href="https://taowyoo.github.io/tag/hLyTfzPi6/" class="post-tag">
+                  # Docker
+                </a>
+              
+            </div>
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h1 id="how-to-slim-a-docker-image">How to slim a Docker Image</h1>
 <h2 id="take-a-glance-to-original-dockerfile">Take a glance to original Dockerfile</h2>
 <p>Today I will use a dev image I am working on as example, I have removed all sensitive info.</p>
 <h3 id="local-devdockerfile">local-dev.dockerfile</h3>
@@ -476,6 +555,101 @@ IMAGE          CREATED       CREATED BY                                      SIZ
 <li><a href="https://docs.docker.com/develop/develop-images/multistage-build/">https://docs.docker.com/develop/develop-images/multistage-build/</a></li>
 <li><a href="https://github.com/tj/node-prune">https://github.com/tj/node-prune</a></li>
 </ul>
-]]></content>
-    </entry>
-</feed>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#how-to-slim-a-docker-image">How to slim a Docker Image</a>
+<ul>
+<li><a href="#take-a-glance-to-original-dockerfile">Take a glance to original Dockerfile</a>
+<ul>
+<li><a href="#local-devdockerfile">local-dev.dockerfile</a></li>
+<li><a href="#build-the-image">Build the image</a></li>
+<li><a href="#build-result">Build result</a></li>
+<li><a href="#main-ideas-to-reduce-the-size-of-image">Main ideas to reduce the size of image</a></li>
+</ul>
+</li>
+<li><a href="#choose-smaller-base-image-as-possible"><strong>Choose Smaller Base Image As Possible</strong></a>
+<ul>
+<li><a href="#options-we-have">Options we have</a></li>
+<li><a href="#lets-modify-the-dockerfile">Let's modify the Dockerfile</a></li>
+</ul>
+</li>
+<li><a href="#use-multi-stage-docker-builds">Use <strong>Multi-Stage Docker Builds</strong></a>
+<ul>
+<li><a href="#what-is-multi-stage-docker-builds">What is <strong>Multi-Stage Docker Builds</strong></a></li>
+<li><a href="#lets-modify">Let's modify</a></li>
+</ul>
+</li>
+<li><a href="#shrink-dependencies">Shrink Dependencies</a>
+<ul>
+<li><a href="#lets-modify-2">Let's modify</a></li>
+</ul>
+</li>
+<li><a href="#sum-up"><strong>Sum up</strong></a></li>
+<li><a href="#reference">Reference</a></li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://taowyoo.github.io/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
